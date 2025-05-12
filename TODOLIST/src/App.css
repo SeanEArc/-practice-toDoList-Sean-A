@@ -1,0 +1,39 @@
+/* Ensure the Header and ToDoList components are positioned at the top */
+body {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 25px auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div {
+  width: 75%;
+}
+
+.header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.task:hover {
+  background-color: #85ced3;
+  cursor: not-allowed;
+  transition: background-color 2s ease; 
+}
